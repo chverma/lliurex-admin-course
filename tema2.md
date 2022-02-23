@@ -168,3 +168,6 @@ Configuración del usuario primario. En la siguiente ventana configuraremos el n
 Cuando finaliza la instalación por completo, nos muestra la siguiente ventana informándonos, y pidiéndonos si queremos reiniciar el equipo o seguir con la prueba. Elegimos la opción de reiniciar, y quitamos el USB cuando nos diga el sistema. Cuando el ordenador se inicie de nuevo, nos mostrará el menú de inicio, al cual podremos elegir qué sistema operativo iniciar.
 
 ![Fin de la instalación](instllx14.png "Fin de la instalación")
+
+## Referencias
+Materiales extraídos del curso del CEFIRE Montaje y configuración del modelo de centro con LliureX y Proxmox
