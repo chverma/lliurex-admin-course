@@ -76,7 +76,8 @@ Para facilitar su utilización os dejamos los siguientes videotutorials con el p
 1. Creamos la carpeta del profesor donde queremos recibir los trabajos:
 <iframe width="1056" height="1000" src="https://www.youtube.com/embed/-k0YEWssLaQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-2. El alumno crea una actividad que quiere compartir con el profesor (solo podrá compartir ficheros; no se permite crear carpetas)<iframe width="1056" height="1000" src="https://www.youtube.com/embed/3jnRt5hCLEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+2. El alumno crea una actividad que quiere compartir con el profesor (solo podrá compartir ficheros; no se permite crear carpetas)
+<iframe width="1056" height="1000" src="https://www.youtube.com/embed/3jnRt5hCLEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 3. Visualización del fichero del alumno al ordenador del profesor/a:
 <iframe width="1056" height="1000" src="https://www.youtube.com/embed/z9PMHdz73BE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
