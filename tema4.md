@@ -1,0 +1,2 @@
+# Tema 4: Administrando Lliurex
+Ver los procesos que hay en background y que pueden causar conflictos e inconvenientes con el software instalado. Por ejemplo, hay software que una vez instalado ¡se desinstala solo!

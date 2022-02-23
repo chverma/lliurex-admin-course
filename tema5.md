@@ -1,0 +1,3 @@
+# Tema 5: Administrando el aula Lliurex
+Instalación de software tanto en el servidor como en los clientes sin necesidad de hacer uso de Zero Center y sin que estas acciones interfieran con lo previamente instalado.
+Gestión de repositorios de Lliurex y posibilidad de añadir más repositorios sin que se produzcan conflictos. ¿Qué repositorios son seguros y compatibles con Lliurex? Se nos ha dado el caso de desinstalar un programa y dejar de funcionar un servidor.

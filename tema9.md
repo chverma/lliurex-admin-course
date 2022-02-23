@@ -1,0 +1,2 @@
+# Tema 9: Resolución de problemas
+En caso de que un servidor se "rompa" a nivel Software, cómo poder recuperarlo, ¿Hay que hacer una instalación limpia desde cero perdiendo usuarios y datos almacenados o se puede reinstalar sin perder la información?
