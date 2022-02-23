@@ -1,4 +1,4 @@
-# lliurex-admin-course
+# Administración y gestión del modelo Lliurex
 
 * [Tema 1: Introducción a Lliurex](tema1)
 * [Tema 2: Instalando Lliurex](tema2)
