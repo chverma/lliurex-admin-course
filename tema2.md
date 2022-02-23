@@ -77,71 +77,71 @@ Cada fabricante utiliza una tecla diferente para acceder al menú de arranque. A
 |Toshiba |	F12 |
 
 Cuando reiniciamos el ordenador y pulsamos la tecla correspondiente a nuestro equipo, se nos mostrará un menú similar al siguiente, al qué tendremos que indicar que queremos arrancar desde el USB que hemos creado:
-![Menú de arrancada](boot_menu.png "Menú de arrancada")
+![Menú de arranque](boot_menu.png "Menú de arranque")
 
 
 Una vez seleccionada la opción, arrancaremos desde el USB, que nos cargará una versión Live de LliureX para poder probarlo e instalarlo.
 
 Vemos a continuación las diferentes pantallas que se nos presentan y las diferentes opciones de instalación que tenemos:
 
-    Pantalla de arrancada de LliureX Live: En esta primera pantalla cuando arrancamos desde el USB tendremos que pulsar una tecla para iniciar la sesión Live de LliureX. Si no pulsamos ninguna tecla, el sistema se iniciará desde el disco duro del ordenador.
+Pantalla de arranque de LliureX Live: En esta primera pantalla cuando arrancamos desde el USB tendremos que pulsar una tecla para iniciar la sesión Live de LliureX. Si no pulsamos ninguna tecla, el sistema se iniciará desde el disco duro del ordenador.
 
 ![Pantalla de arranc de LliureX Live](instllx1.png "Pantalla de arranc de LliureX Live")
 
 
-    Menú de inicio del sistema Live, con diferentes opciones, como hacer un testeo de memoria o comproar si el CD/USB de instalación tiene defectos. Elegiremos la opción Probar LliureX sin instalarlo, para iniciar el modo live y desde ahí empezar la instalación.
+Menú de inicio del sistema Live, con diferentes opciones, como hacer un testeo de memoria o comproar si el CD/USB de instalación tiene defectos. Elegiremos la opción Probar LliureX sin instalarlo, para iniciar el modo live y desde ahí empezar la instalación.
 
 ![Menú de inicio del sistema Live](instllx2.png "Menú de inicio del sistema Live")
 
 
 En caso de que tengamos el modo UEFI activado en nuestro ordenador, es posible que estas opciones de arranque cambien, dando opción a iniciar LliureX Live en modo UEFI o bien a instalar directamente el sistema. En este caso, podemos bien lanzar directamente el instalador o bien arrancar la sesión Live, y desde esta instalar LliureX directamente. Disponéis de un extenso artículo en la wiki de LliureX sobre qué es UEFI y cómo activarlo y desactivarlo al ordenador.
 
-    LliureX Live: Se iniciará LliureX en modo Live desde el USB, y a partir de aquí podremos iniciar la instalación. Para lo cual haremos doble clic al icono Instala la versión LliureX que aparece en el Escritorio.
+LliureX Live: Se iniciará LliureX en modo Live desde el USB, y a partir de aquí podremos iniciar la instalación. Para lo cual haremos doble clic al icono Instala la versión LliureX que aparece en el Escritorio.
 
 ![LliureX Live](instllx3.png "LliureX Live")
 
 
-    Instalador de LliureX: Ahora se iniciará el instalador de LliureX. La primera ventana de este asistente de instalación nos pedirá qué idioma deseamos para la instalación y el sistema.
+Instalador de LliureX: Ahora se iniciará el instalador de LliureX. La primera ventana de este asistente de instalación nos pedirá qué idioma deseamos para la instalación y el sistema.
 
 ![Selección de idioma](instllx4.png "Selección de idioma")
 
 
-    Selección de la distribución del teclado, en este caso, elegiremos la Disposición en Español y la variante del catalán para tener habilitado el punto medio (el de la ele geminada l·l).
+Selección de la distribución del teclado, en este caso, elegiremos la Disposición en Español y la variante del catalán para tener habilitado el punto medio (el de la ele geminada l·l).
 
 ![Selección de la distribución del teclado](instllx5.png "Selección de la distribución del teclado")
 
 
-    Selección de la distribución del escritorio, donde podremos elegir qué apariencia queremos darle a nuestro escritorio LliureX. Tenemos dos opciones. La primero es la distribución por defecto (Default Layout), con una barra superior y el dock a la parte inferior, tal y como se ha estado trabajando en las últimas versiones de LliureX. La segunda opción es una distribución más clásica (Classic Layout) con una única barra a la parte inferior. En principio escogeremos la distribución por defecto.
+Selección de la distribución del escritorio, donde podremos elegir qué apariencia queremos darle a nuestro escritorio LliureX. Tenemos dos opciones. La primero es la distribución por defecto (Default Layout), con una barra superior y el dock a la parte inferior, tal y como se ha estado trabajando en las últimas versiones de LliureX. La segunda opción es una distribución más clásica (Classic Layout) con una única barra a la parte inferior. En principio escogeremos la distribución por defecto.
 
 ![Distribución del escritorio](instllx6.png "Distribución del escritorio")
 
 
-    Selección de software adicional, en principio no tendremos que instalar este software por defecto, por el que no marcaremos nada y pulsaremos en Continua.
+Selección de software adicional, en principio no tendremos que instalar este software por defecto, por el que no marcaremos nada y pulsaremos en Continua.
 
 ![Software adicional](instllx7.png "Software adicional")
 
 
-    Complementos del sistema, desde donde podremos habilitar el apoyo de flash, así como el envío de estadísticas de uso de LliureX de forma anónima y el servicio de inventario, para recoger información del hardware. En nuestro caso, dejaremos marcado el apoyo de flash y el uso de estadítiques.
+Complementos del sistema, desde donde podremos habilitar el apoyo de flash, así como el envío de estadísticas de uso de LliureX de forma anónima y el servicio de inventario, para recoger información del hardware. En nuestro caso, dejaremos marcado el apoyo de flash y el uso de estadítiques.
 
 ![Complementos del sistema](instllx8.png "Complementos del sistema")
 
 
-    Tipo de instalación. Este es uno de los puntos más delicados de la instalación, y es donde decidiremos la parte de disco que vamos a dedicar a LliureX. El propio particionador ya nos sugerirá la distribución que considero más adecuada según el espacio que encuentra disponible en el disco duro bajo la opción de particionamento guiado.
+Tipo de instalación. Este es uno de los puntos más delicados de la instalación, y es donde decidiremos la parte de disco que vamos a dedicar a LliureX. El propio particionador ya nos sugerirá la distribución que considero más adecuada según el espacio que encuentra disponible en el disco duro bajo la opción de particionamento guiado.
 
 ![Tipo de instalación](instllx9.png "Tipo de instalación")
 
 
 Cuando hablamos de particiones hacemos referencia a las partes en que dividimos, de forma lógica, un disco duro de forma que es cómo si tuvieramos tantos discos duros como particiones. Cada sistema operativo necesita ubicar su sistema de ficheros en una de estas particiones. En esta ventana de Tipo de instalación tenemos varias opciones para hacer estas particiones:
 
-    Guiado - redimensiona disco y utiliza el espacio libre, que será la opción recomendada, siempre que el particionador encuentro espacio suficiente en el disco como para hacer la instalación. A la instalación de ejemplo que estamos haciendo se ha utilizado este sistema, sobre un disco que ya tenía varias particiones. El sistema ha detectado la partición donde más espacio disponible había y nos ha sugerido reducir esta y crear una nueva para instalar LliureX. Cómo vemos a la imagen, se nos muestra el estado actual del disco, y como quedaría después de hacer la nueva partición. En esta barra de abajo, fijaos que aparece una flecha doble entre la partición que vayamos a redimensionar y la nueva por sí queremos ajustar los espacios. Si deseáis ajustar el espacio, acordaros de dejar unos 20GB para la partición con LliureX.
+* Guiado - redimensiona disco y utiliza el espacio libre, que será la opción recomendada, siempre que el particionador encuentro espacio suficiente en el disco como para hacer la instalación. A la instalación de ejemplo que estamos haciendo se ha utilizado este sistema, sobre un disco que ya tenía varias particiones. El sistema ha detectado la partición donde más espacio disponible había y nos ha sugerido reducir esta y crear una nueva para instalar LliureX. Cómo vemos a la imagen, se nos muestra el estado actual del disco, y como quedaría después de hacer la nueva partición. En esta barra de abajo, fijaos que aparece una flecha doble entre la partición que vayamos a redimensionar y la nueva por sí queremos ajustar los espacios. Si deseáis ajustar el espacio, acordaros de dejar unos 20GB para la partición con LliureX.
 
-    Guiado - utiliza el disco entero. En este caso, se borraría todo el contenido del disco, y lo utilizaría completamente para LliureX.
+* Guiado - utiliza el disco entero. En este caso, se borraría todo el contenido del disco, y lo utilizaría completamente para LliureX.
 
-    Guiado - utiliza el disco entero y configura LVM, es parecido al anterior pero utilizando volúmenes lógicos ( LVM, Logical Volume Manager), que gestiona varias particiones como si se tratara de una.
+* Guiado - utiliza el disco entero y configura LVM, es parecido al anterior pero utilizando volúmenes lógicos ( LVM, Logical Volume Manager), que gestiona varias particiones como si se tratara de una.
 
-    Guiado - utiliza el disco entero y configura LVM cifrado, que seria como el anterior, pero cifrando el disco.
+* Guiado - utiliza el disco entero y configura LVM cifrado, que seria como el anterior, pero cifrando el disco.
 
-    Manual, es la opción más versátil y potente, puesto que nos permite gestionar las particiones a nuestro gusto, y por tanto, la más peligrosa si no sabemos muy bien qué estamos haciendo.
+* Manual, es la opción más versátil y potente, puesto que nos permite gestionar las particiones a nuestro gusto, y por tanto, la más peligrosa si no sabemos muy bien qué estamos haciendo.
 
 Lo más recomendable, será pues, seguir el modo guiado que nos sugiere el reparticionamento del disco.
 
@@ -151,20 +151,20 @@ Una vez elegimos el tipo de instalación nos mostrará el siguiente mensaje advi
 
 Una vez le damos a Continuar el sistema empezará a instalarse, mientras sigue el asistente para configurar el sistema.
 
-    Selección de la ubicación. La siguiente ventana nos pregunta la región donde estamos, para establecer el huso horario correctamente. A la parte inferior de la ventana, podremos ver el progreso de la instalación.
+Selección de la ubicación. La siguiente ventana nos pregunta la región donde estamos, para establecer el huso horario correctamente. A la parte inferior de la ventana, podremos ver el progreso de la instalación.
 
 ![Configuración regional](instllx11.png "Configuración regional")
 
 
-    Configuración del usuario primario. En la siguiente ventana configuraremos el nombre del usuario primario (que tendrá permiso de administrador), su contraseña y así como el nombre del sistema. Además, determinaremos si hace falta una contraseña para entrar al ordenador. Indicaremos nuestro nombre, el nombre de usuario que utilizaremos, nuestra contraseña (dos veces) y que sí que queremos una contraseña para entrar.
+Configuración del usuario primario. En la siguiente ventana configuraremos el nombre del usuario primario (que tendrá permiso de administrador), su contraseña y así como el nombre del sistema. Además, determinaremos si hace falta una contraseña para entrar al ordenador. Indicaremos nuestro nombre, el nombre de usuario que utilizaremos, nuestra contraseña (dos veces) y que sí que queremos una contraseña para entrar.
 
 ![Creación del usuario](instllx12.png "Creación del usuario")
 
 
-12 . Últimos pasos de la instalación. Una vez configurado el sistema, este sigue con su instalación. Mientras lo hace, nos muestra las principales novedades de la versión. Ahora tendremos que esperar un tiempo para que el sistema esté instalado por completo.
+Últimos pasos de la instalación. Una vez configurado el sistema, este sigue con su instalación. Mientras lo hace, nos muestra las principales novedades de la versión. Ahora tendremos que esperar un tiempo para que el sistema esté instalado por completo.
 ![Proceso de instalación](instllx13.png "Proceso de instalación")
 
 
-    Cuando finaliza la instalación por completo, nos muestra la siguiente ventana informándonos, y pidiéndonos si queremos reiniciar el equipo o seguir con la prueba. Elegimos la opción de reiniciar, y quitamos el USB cuando nos diga el sistema. Cuando el ordenador se inicie de nuevo, nos mostrará el menú de inicio, al cual podremos elegir qué sistema operativo iniciar.
+Cuando finaliza la instalación por completo, nos muestra la siguiente ventana informándonos, y pidiéndonos si queremos reiniciar el equipo o seguir con la prueba. Elegimos la opción de reiniciar, y quitamos el USB cuando nos diga el sistema. Cuando el ordenador se inicie de nuevo, nos mostrará el menú de inicio, al cual podremos elegir qué sistema operativo iniciar.
 
 ![Fin de la instalación](instllx14.png "Fin de la instalación")
