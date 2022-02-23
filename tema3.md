@@ -66,7 +66,6 @@ Una herramienta interesante y que viene instalada por defecto en el modelo de ce
 Su funcionamiento es muy sencillo e intuitivo:
 
 1. Creamos la carpeta en la cuenta del profesor
-
 2. El alumnado elige el trabajo que quiere enviar y a qué profesorado quiere enviarlo.
 3. El profesor recibe los trabajo del alumnado.
 
