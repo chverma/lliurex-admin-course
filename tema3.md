@@ -3,6 +3,8 @@
 ## Introducción
 Este tema trata más herramientas básicas, en este caso educativas. Te explicamos una serie de aplicaciones que están preinstaladas en LLiurex y que pueden ser válidas para tu día a día docente.
 
+## Configurar encendido de ordenadores mediante WakeOnLan
+
 ## Epoptes
 Epoptes,  se utiliza para el control del aula, es una herramienta mediante la cual se pueden realizar tareas de control en los clientes de la red del aula de informática. Para acceder solo tenemos que ir al menú y pulsar en >administración de LLiurex>Epoptes:
 
