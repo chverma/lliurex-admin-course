@@ -5,22 +5,22 @@
 ## Instalación
 Una vez descargada la ISO y grabada en un USB, iniciamos con el USB.
 
-![Remote Installer](img/tema6/1.png "Licencia de Proxmox")
+![Remote Installer](img/tema6/1.jpg "Licencia de Proxmox")
 
 Todos sabemos que es importante leerse la licencia :)
 
-![Licencia de Proxmox](img/tema6/2.png "Licencia de Proxmox")
+![Licencia de Proxmox](img/tema6/2.jpg "Licencia de Proxmox")
 
 
 Esta es una de las partes más delicadas y depende de lo que queréis tener montado en vuestro centro, también depende de la cantidad de discos duros que tengáis instalados y de si queréis invertir dinero en una cabina de discos duros.
 
-![Opciones de instalación](img/tema6/3.png "Opciones de instalación")
+![Opciones de instalación](img/tema6/3.jpg "Opciones de instalación")
 
 Si queréis dejarlo en ext4. Y utilizar un único disco para utilizar Proxmox en las máquinas virtuales, no va a dar malos resultados. El otro disco duro lo podéis utilizar para hacer copias de seguridad.
 
 Proxmox utiliza ZFS que es una combinación de administrador de volúmenes y sistema de ficheros.
 
-![Selección de opciones](img/tema6/4.png "Selección de opciones")
+![Selección de opciones](img/tema6/4.jpg "Selección de opciones")
 
 
 Las opciones que tenemos son las siguientes:
@@ -38,31 +38,31 @@ Si habéis optado por adquirir una tarjeta controladora para montar un RAID, est
 
 La opción más nivelada entre todos los parámetros a tener en cuenta sería la opción de RAID1.
 
-![Opción recomendada](img/tema6/5.png "Opción recomendada")
+![Opción recomendada](img/tema6/5.jpg "Opción recomendada")
 
 
 Configuramos la zona geográfica.
 
-![Zona geográfica](img/tema6/6.png "Zona geográfica")
+![Zona geográfica](img/tema6/6.jpg "Zona geográfica")
 
 
 Configuramos el password y la contraseña.
 
-![Configuración de contraseña](img/tema6/7.png "Configuración de contraseña")
+![Configuración de contraseña](img/tema6/7.jpg "Configuración de contraseña")
 
 
 Configura la red según los parámetros de tu centro. El ejemplo dado no es el correspondiente al que deberías de utilizar.
 
-![Configuración de red](img/tema6/8.png "Configuración de red")
+![Configuración de red](img/tema6/8.jpg "Configuración de red")
 
 Comprobamos que todos los parámetros que hemos configurado son los correctos y le damos a Install. Enseguida empezará la instalación que suele ser bastante rápida.
 
-![Instalación de proxmox](img/tema6/9.png "Instalación de proxmox")
+![Instalación de proxmox](img/tema6/9.jpg "Instalación de proxmox")
 
 
 Una vez finalizada la instalación. Reiniciamos el sistema y pasaremos a la siguiente unidad. Configuración del Proxmox.
 
-![Instalación de proxmox](img/tema6/10.png "Instalación de proxmox")
+![Instalación de proxmox](img/tema6/10.jpg "Instalación de proxmox")
 
 ## Configuración
 
