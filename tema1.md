@@ -60,7 +60,7 @@ Modelo de centro
 
 LliureX Modelo de Centro (con versión para servidores y clientes) amplía el tradicional modelo de aula. En el modelo de aula, las aulas de informática forman una red independiente que dispone de un servidor al cual se pueden conectar tanto estaciones de trabajo como clientes ligeros (clientes). El nuevo modelo de centro, además, permite el interconexionado de las diferentes aulas con un servidor de centro. Encontraréis más información sobre el modelo de centro en la Wiki de LliureX.
 
-![Esquema del modelo de centro](model_de_centre_val.png "Esquema del modelo de centro")
+![Esquema del modelo de centro](img/tema1/model_de_centre_val.png "Esquema del modelo de centro")
 
 # Donde encontrar información y ayuda
 Los principales lugares donde encontrar información son: el portal web de LliureX en PortalEdu, La Wiki de LliureX, y el foro. Además, existe una gran comunidad de usuarios, recordamos que LliureX es utilizado en los centros educativos valencianos desde hace más de quince años y, a lo largo de este tiempo, se han constituido grupos y foros de personas muchas de las cuales siempre están dispuestos a ayudar altruistamente en lo que sea.

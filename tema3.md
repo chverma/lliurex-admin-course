@@ -6,14 +6,14 @@ Este tema trata más herramientas básicas, en este caso educativas. Te explicam
 ## Epoptes
 Epoptes,  se utiliza para el control del aula, es una herramienta mediante la cual se pueden realizar tareas de control en los clientes de la red del aula de informática. Para acceder solo tenemos que ir al menú y pulsar en >administración de LLiurex>Epoptes:
 
-![Epoptes](captura-epoptes-1.png "Epoptes")
+![Epoptes](img/tema3/captura-epoptes-1.png "Epoptes")
 Accederemos con un usuario profesor poniendo la contraseña que haga falta y accederemos al programa:
 <iframe width="1056" height="1000" src="https://www.youtube.com/embed/FLXAdshFaTk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 Se nos abre una ventana con toda una serie de opciones que os definimos a continuación:
 
-![Epoptes](epoptes-9-modificat.png "Epoptes")
+![Epoptes](img/tema3/epoptes-9-modificat.png "Epoptes")
 
 Visto esto, nos centraremos en cada apartado por separado; para seguir un orden, primero en el más básico para después ir pasando a los que suponen algo más de dificultad. Cómo veis hay algunos que no están marcados en la imagen, podéis descubrir su funcionalidad pasando con el ratón por encima de cada icono como veréis en los diferentes videos que os exponemos a continuación.
 
