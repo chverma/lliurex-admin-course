@@ -39,6 +39,7 @@ Debemos hacer clic en Reestablecer perfil y esperar 60 segundos, aproximadamente
 
  Si no se dispone de menú de aplicaciones, podemos lanzar el programa mediante línia de comandos. Para ello pulsamos:
 > Control+ALT+T
+
 Se nos abrirá el terminal y escribimos:
 > lliurex-perfilreset
 
