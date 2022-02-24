@@ -118,10 +118,15 @@ Lo primero que requerirá la ejecución de la Gestión remota será un nombre de
 
 ![CSSH 1](img/tema5/cssh1.png "CSSH 1")
 
+Una vez introducido el nombre de usuario y habiendo pulsado el botón Aceptar, el programa detecta los clientes conectados y pide confirmación para conectarse.
+
 ![CSSH 2](img/tema5/cssh2.png "CSSH 2")
+
+Pulsamos el botón Sí y se abren tantos terminales cliente como clientes conectados. Además se abre una ventana con un campo de texto que usaremos para escribir la misma línea de comandos en todas las terminales. 
 
 ![CSSH 3](img/tema5/cssh3.png "CSSH 3")
 
+Lo primero que nos pide es la contraseña del usuario con el que nos hemos identificado, por lo que la introducimos en la ventana común. Una vez identificados, debemos introducir las órdenes que queramos, teniendo en cuenta de que se ejecutará a la vez en todos los clientes. En caso de querer que sólo se ejecute en uno, debemos seleccionar la ventana de dicho cliente y escribir los comandos correspondientes. 
 
 ## Gestión de repositorios
 Finalmente, vamos a ver la herramienta Repoman (Repository Manager). Esta no es una herramienta para instalar paquetes, sino para gestionar los diferentes repositorios o depósitos de software configurados a nuestro ordenador. En nuestro sistema, podemos tener tantos repositorios configurados cómo deseamos. De manera predeterminada, en LliureX solo tendremos configurados los depósitos de software de LliureX, pero podemos configurar todos los que deseamos.
