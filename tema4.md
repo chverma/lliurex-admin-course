@@ -44,10 +44,20 @@ Se nos abrirá el terminal y escribimos:
 > lliurex-perfilreset
 
 ## Actualizar Lliurex
+lliurex-up
+lliurex-upgrade
 
 ## Instalar paquetes
+apt install
+discover
+lliurex-store
 
 ## Desinstalar paquetes
+apt remove
+discover
+lliurex-store
 
 # Ver los procesos que hay en background
 y que pueden causar conflictos e inconvenientes con el software instalado. Por ejemplo, hay software que una vez instalado ¡se desinstala solo!
+
+sudo systemctl status
