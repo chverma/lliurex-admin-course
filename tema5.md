@@ -27,6 +27,7 @@ Para que el servidor funcione dentro del modelo de aula/centro hay que configura
 
 ## Esquema de red
 Hemos de tener en cuenta los siguiente elementos. Cada uno de los servidores tiene que tener como mínimo 2c tarjetas de red:
+
 | Tarjeta         | Características |
 |:--------------|:-----|
 |eth1 | Tarjeta externa que se conecta en la red de Aulas: espacio de direcciones IP = 10.2.1.254/24 |
@@ -86,9 +87,41 @@ Mediante la herramienta **llum**, podemos gestionar usuarios y roles, así como 
 [Más información.](https://wiki.edu.gva.es/lliurex/tiki-index.php?page=Gesti%C3%B3n+de+usuarios#Gesti_n_de_usuarios)
 
 ## Instalación remota de software
-Instalación de software tanto en el servidor como en los clientes sin necesidad de hacer uso de Zero Center y sin que estas acciones interfieran con lo previamente instalado.
+LliureX Remote Installer es una potente herramienta, que nos permitirá instalar un programa que necesitemos en todos los clientes que se conecten.
+
+De esta forma no será necesario ir ordenador por ordenador para instalar los programas necesarios, sino que configurando el programa podremos tener en todos los ordenadores del aula el programa que necesitemos. Esto nos permitirá crear un perfil de ordenador de aula, asegurándose así que los programas que necesitemos siempre estarán instalados aunque los desinstalen por error o tengamos que reinstalar algún cliente, ya que cada vez que se vuelva a arrancar el cliente se comprobará que todos los programas están instalados.
+
+Esta herramienta permite, así, gestionar el aula de una forma más autónoma facilitando la tarea de mantenimiento con un gran ahorro de tiempo y de recursos.
+
+En primer lugar debemos decidir qué programas queremos instalar. Hay tres maneras de instalar un programa:
+
+| Tipo         | Características |
+|:--------------|:-----|
+| Repositorios 	| Si queremos instalar un programa desde un repositorio externo podemos añadir el repositorio externo y luego el paquete que queremos instalar. |
+| deb externo 	|Si tenemos un paquete deb que no se encuentra en los repositorios podemos instalarlo. Eso sí, si tiene dependencias deben encontrarse en los repositorios que tenemos en nuestro sistema (sources.list). También puedes añadir un repositorio en la pestaña de Repositorios que satisfaga las dependencias que necesitemos.|
+|ejecutable 	Algunos programas vienen con un binario que instala el programa. También se facilita su instalación.|
+|zmd 	| Permite ejecutar los zomandos en el cliente instalando la o las aplicaciones disponibles en dichos zomandos.|
+|Update |	Podemos querer simplemente actualizar todos los clientes del aula sin necesidad de ir por cada ordenador.|
+
+Ahora desde el menú de Aplicaciones-Admnistración LliureX iniciaremos el LliureX Remote Installer: 
+
+![Remote Installer](img/tema5/00_RemoteInstaller_ES "Remote Installer")
+
+Para poder hacer tareas en el Remote Installer nos deberemos loguear como administradores del sistema (usuario **netadmin**). La casilla de Server IP la podemos dejar en blanco ya que, por defecto, se ejecuta en nuestro servidor. Los profesores no tienen permiso de administrador por lo que deberán ponerse en contacto con el administrador del sistema para poder instalar cualquier paquete.
+
+[Más información](https://wiki.edu.gva.es/lliurex/tiki-index.php?page=LliureX+Remote+Installer&structure=Documentaci%C3%B3n&page_ref_id=1034)
 
 ## Gestión remota de los clientes
+Desde el servidor de aula, podemos realizar multitud de operaciones, pero una de las más importantes consiste en el acceso a los clientes para realizar operaciones sobre ellos. De hecho, LliureX nos ayuda con esta labor gracias a la herramienta Gestión remota de clientes, también llamada lliurex-cssh. 
+
+Lo primero que requerirá la ejecución de la Gestión remota será un nombre de usuario con el cual conectarse a los clientes que estén en la red del servidor. En el caso de usar un usuario local administrador de los clientes, hay que ser consciente de que todos los clientes han de tener el mismo nombre de usuario y la misma contraseña. Es por esto por lo que se recomienda usar el usuario administrador que se crea al inicializar el servidor de aula de LliureX: netadmin. 
+
+![CSSH 1](img/tema5/cssh1.png "CSSH 1")
+
+![CSSH 2](img/tema5/cssh2.png "CSSH 2")
+
+![CSSH 3](img/tema5/cssh3.png "CSSH 3")
+
 
 ## Gestión de repositorios
 Finalmente, vamos a ver la herramienta Repoman (Repository Manager). Esta no es una herramienta para instalar paquetes, sino para gestionar los diferentes repositorios o depósitos de software configurados a nuestro ordenador. En nuestro sistema, podemos tener tantos repositorios configurados cómo deseamos. De manera predeterminada, en LliureX solo tendremos configurados los depósitos de software de LliureX, pero podemos configurar todos los que deseamos.
