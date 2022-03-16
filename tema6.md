@@ -1,6 +1,6 @@
 # Tema 6: Proxmox
 ## Introducción
-
+En esta unidad vamos a ver la instalación de Proxmox así como crear nuestra primera máquina virtual.
 
 ## Instalación
 Una vez descargada la ISO y grabada en un USB, iniciamos con el USB.
